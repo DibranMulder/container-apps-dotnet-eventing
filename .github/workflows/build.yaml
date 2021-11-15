@@ -81,7 +81,6 @@ jobs:
       - name: Azure Login
         uses: azure/login@v1
         with:
-          environment: 'VS Enterprise'
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy bicep
