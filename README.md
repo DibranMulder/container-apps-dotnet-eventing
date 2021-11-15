@@ -39,3 +39,5 @@ You can also deploy the solution at anytime using the Azure CLI.
     registry=ghcr.io \
     registryUsername=$githubUsername \
     registryPassword=$githubPackagesToken
+
+
